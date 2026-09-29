@@ -4,3 +4,13 @@ roles:
     scm: git
     version: main
     name: ansible-containerd
+
+  - src: git@github.com:rhattox-ansible/ansible-containerd-nerdctl
+    scm: git
+    version: main
+    name: ansible-containerd-nerdctl
+
+  - src: git@github.com:rhattox-ansible/ansible-kubernetes
+    scm: git
+    version: main
+    name: ansible-kubernetes

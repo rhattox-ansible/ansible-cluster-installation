@@ -4,3 +4,5 @@
   become: true
   roles:
     - role: ansible-containerd
+    - role: ansible-containerd-nerdctl
+    - role: ansible-kubernetes
