@@ -5,10 +5,15 @@ roles:
     version: main
     name: ansible-containerd
 
-  - src: git@github.com:rhattox-ansible/ansible-containerd-nerdctl
+  - src: git@github.com:rhattox-ansible/ansible-containerd-cli-tools
     scm: git
     version: main
-    name: ansible-containerd-nerdctl
+    name: ansible-containerd-cli-tools
+
+  - src: git@github.com:rhattox-ansible/ansible-kubernetes-cli-tools
+    scm: git
+    version: main
+    name: ansible-kubernetes-cli-tools
 
   - src: git@github.com:rhattox-ansible/ansible-kubernetes
     scm: git
